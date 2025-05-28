@@ -1,0 +1,76 @@
+{
+  "cartelera": [
+    {
+      "titulo": "Thunderbolts",
+      "sinopsis": "Un grupo de antihéroes reclutados por el gobierno se une para llevar a cabo misiones encubiertas imposibles.",
+      "genero": "Acción / Superhéroes",
+      "actores": ["Florence Pugh", "Sebastian Stan", "David Harbour", "Wyatt Russell"],
+      "cartel": "https://www.themoviedb.org/t/p/w1280/cGOBis1KNC8AkYMcOEw4lCycfD1.jpg",
+      "sesiones": [
+        { "hora": "15:30", "formato": "2D", "idioma": "VOSE", "sala": "Sala 1" },
+        { "hora": "18:45", "formato": "IMAX", "idioma": "Doblada", "sala": "Sala 4" },
+        { "hora": "21:30", "formato": "3D", "idioma": "VOSE", "sala": "Sala 3" }
+      ]
+    },
+    {
+      "titulo": "Sinners",
+      "sinopsis": "Tratando de dejar atrás sus problemáticas vidas, dos hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor les espera.",
+      "genero": "Thriller / Crimen",
+      "actores": ["Michael B Jordan", "Hailee Steinfeld", "Miles Caton"],
+      "cartel": "https://www.themoviedb.org/t/p/w1280/tsjuM8byz5SJooLYQodkdCYN4jD.jpg",
+      "sesiones": [
+        { "hora": "16:00", "formato": "2D", "idioma": "VOSE", "sala": "Sala 5" },
+        { "hora": "19:15", "formato": "2D", "idioma": "Doblada", "sala": "Sala 2" },
+        { "hora": "22:00", "formato": "3D", "idioma": "VOSE", "sala": "Sala 5" }
+      ]
+    },
+    {
+      "titulo": "Stitch",
+      "sinopsis": "El adorable alienígena regresa en una nueva aventura donde debe salvar a su nueva familia de una amenaza intergaláctica.",
+      "genero": "Animación / Aventura / Familiar",
+      "actores": ["Chris Sanders", "Zach Galifianakis", "Maia Kealoha"],
+      "cartel": "https://www.themoviedb.org/t/p/w1280/COzWKbKbHGsOM7HjWuYrUrlQ8r.jpg",
+      "sesiones": [
+        { "hora": "14:00", "formato": "2D", "idioma": "Doblada", "sala": "Sala 6" },
+        { "hora": "17:00", "formato": "3D", "idioma": "Doblada", "sala": "Sala 6" },
+        { "hora": "19:30", "formato": "2D", "idioma": "Doblada", "sala": "Sala 6" }
+      ]
+    },
+    {
+      "titulo": "Misión Imposible: Sentencia Mortal",
+      "sinopsis": "Ethan Hunt y su equipo enfrentan su desafío más letal hasta ahora mientras el futuro del mundo pende de un hilo.",
+      "genero": "Acción / Espionaje",
+      "actores": ["Tom Cruise", "Rebecca Ferguson", "Simon Pegg", "Hayley Atwell"],
+      "cartel": "https://www.themoviedb.org/t/p/w1280/iAQULg2qPYBCXXjF3pKn2FuYwY8.jpg",
+      "sesiones": [
+        { "hora": "15:00", "formato": "IMAX", "idioma": "VOSE", "sala": "Sala 1" },
+        { "hora": "18:15", "formato": "2D", "idioma": "Doblada", "sala": "Sala 2" },
+        { "hora": "21:45", "formato": "3D", "idioma": "VOSE", "sala": "Sala 3" }
+      ]
+    },
+    {
+      "titulo": "Vivir el momento",
+      "sinopsis": "Almut y Tobias se conocen en un encuentro inesperado que cambia sus vidas...",
+      "genero": "Drama / Inspiracional",
+      "actores": ["Florene Pugh", "Andrew Garfield"],
+      "cartel": "https://www.themoviedb.org/t/p/w1280/RiE4GRCOgSS9OgDi4nUuEvgGyK.jpg",
+      "sesiones": [
+        { "hora": "13:45", "formato": "2D", "idioma": "VOSE", "sala": "Sala 4" },
+        { "hora": "17:10", "formato": "2D", "idioma": "VOSE", "sala": "Sala 5" },
+        { "hora": "20:30", "formato": "2D", "idioma": "VOSE", "sala": "Sala 2" }
+      ]
+    },
+    {
+      "titulo": "Minecraft: La Película",
+      "sinopsis": "Cuando el mundo de Minecraft es amenazado por el Ender Dragon...",
+      "genero": "Aventura / Fantasía / Familiar",
+      "actores": ["Jack Black", "Danielle Brooks", "Jason Momoa"],
+      "cartel": "https://www.themoviedb.org/t/p/w1280/mFjtmmh4RtK9tLv1aPnUsl6st3m.jpg",
+      "sesiones": [
+        { "hora": "12:00", "formato": "2D", "idioma": "Doblada", "sala": "Sala 7" },
+        { "hora": "15:20", "formato": "3D", "idioma": "Doblada", "sala": "Sala 7" },
+        { "hora": "18:40", "formato": "2D", "idioma": "VOSE", "sala": "Sala 7" }
+      ]
+    }
+  ]
+}

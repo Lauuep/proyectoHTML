@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tiendas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="imagenes/logoXanadu.png" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- hoja de estilos personalizada -->
+    <link rel="stylesheet" href="bootstrap.css" />
+    <!-- Bootstrap Bundle JS (con Popper incluido) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: Kanit, sans-serif;
+      }
+      body {
+        font-family: Nunito, sans-serif;
+      }
+      header {
+        background-color: #343a40;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .container {
+        margin-top: 20px;
+      }
+
+      body {
+        background-color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-warning bg-opacity-75 accordion-body text-bg-dark dmb-5">
+      <div class="container d-flex flex-column align-items-center">
+        <!-- Logo arriba, centrado -->
+        <a class="navbar-brand mb-2" href="#">
+          <img src="imagenes/logo-intu-xanadu.png" width="200" alt="Logo" />
+          <div class="text-center"></div>
+        </a>
+
+        <!-- Botón para móvil -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación centrado -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">intuXanadu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tiendas.html">Tiendas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurante.html">Restaurantes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false">
+                Diversión
+              </a>
+              <div class="dropdown-menu text-center">
+                <a class="dropdown-item" href="ocio.html">Ocio</a>
+                <a class="dropdown-item" href="cine.html">Cine</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="legal.html">Legal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactooo.html">Contacta con nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <section class="row mb-5">
+        <!-- TARJETA + MODAL 1:  2 Life -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card bg-dark text-white border-warning h-100">
+            <img src="imagenes/tiendas/2life.jpg" class="card-img-top" alt="2 Life" />
+            <div class="card-body">
+              <h4>2 Life</h4>
+              <p>¿Quieres darle una segunda vida a esa joya que no utilizas? [...]</p>
+              <p class="text-end">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal2life">
+                  Ver más
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal2life" tabindex="-1" aria-labelledby="modal2lifeLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-warning">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal2lifeLabel">2 Life</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  2Life es líder en reciclaje de joyas y móviles. Cambia objetos por dinero de forma rápida y segura en
+                  intu Xanadú.
+                </p>
+                <img src="imagenes/tiendas/2lifeLocal.jpg" alt="Interior de 2 Life" class="img-fluid rounded" />
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="https://www.intuxanadu.com/tienda/2life/"
+                  class="btn btn-warning"
+                  target="_blank"
+                  rel="noopener"
+                  >Sitio oficial</a
+                >
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TARJETA + MODAL 2:  Acium -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card bg-dark text-white border-warning h-100">
+            <img src="imagenes/tiendas/acium.jpg" class="card-img-top" alt="Acium" />
+            <div class="card-body">
+              <h4>Acium</h4>
+              <p>Las joyas de Acium transmiten modernidad, energía y estilo. [...]</p>
+              <p class="text-end">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalacium">
+                  Ver más
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalacium" tabindex="-1" aria-labelledby="modalaciumLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-warning">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalaciumLabel">Acium</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <p>Joyas minimalistas con personalidad y elegancia. Descubre su gama en tres colores en intu Xanadú.</p>
+                <img src="imagenes/tiendas/acciumLocal.jpg" alt="Joyas Acium" class="img-fluid rounded" />
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="https://www.intuxanadu.com/tienda/acium/"
+                  class="btn btn-warning"
+                  target="_blank"
+                  rel="noopener"
+                  >Sitio oficial</a
+                >
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TARJETA + MODAL 3:  Adidas -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card bg-dark text-white border-warning h-100">
+            <img src="imagenes/tiendas/addidas.jpg" class="card-img-top" alt="Adidas" />
+            <div class="card-body">
+              <h4>Adidas</h4>
+              <p>Adidas es una marca global de ropa deportiva, calzado y accesorios. [...]</p>
+              <p class="text-end">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modaladidas">
+                  Ver más
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modaladidas" tabindex="-1" aria-labelledby="modaladidasLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-warning">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modaladidasLabel">Adidas</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <p>Descubre lo último en innovación deportiva y moda urbana con Adidas en intu Xanadú.</p>
+                <img src="imagenes/tiendas/adiddasLocal.jpg" alt="Tienda Adidas" class="img-fluid rounded" />
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="https://www.intuxanadu.com/tienda/adidas/"
+                  class="btn btn-warning"
+                  target="_blank"
+                  rel="noopener"
+                  >Sitio oficial</a
+                >
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TARJETA + MODAL 4:  Alain Afflelou -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card bg-dark text-white border-warning h-100">
+            <img src="imagenes/tiendas/alainafflelou.jpg" class="card-img-top" alt="Alain Afflelou" />
+            <div class="card-body">
+              <h4>Alain Afflelou</h4>
+              <p>Una de las marcas más prestigiosas en óptica y audífonos. [...]</p>
+              <p class="text-end">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalafflelou">
+                  Ver más
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modalafflelou"
+          tabindex="-1"
+          aria-labelledby="modalafflelouLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-warning">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalafflelouLabel">Alain Afflelou</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Expertos en gafas y audífonos con presencia internacional. Encuentra tus lentes ideales en intu
+                  Xanadú.
+                </p>
+                <img src="imagenes/tiendas/alainLocal.jpg" alt="Óptica Alain Afflelou" class="img-fluid rounded" />
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="https://www.intuxanadu.com/tienda/alain-afflelou/"
+                  class="btn btn-warning"
+                  target="_blank"
+                  rel="noopener"
+                  >Sitio oficial</a
+                >
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TARJETA + MODAL 5:  Ale-Hop -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card bg-dark text-white border-warning h-100">
+            <img src="imagenes/tiendas/alehop.jpg" class="card-img-top" alt="Ale-Hop" />
+            <div class="card-body">
+              <h4>Ale-Hop</h4>
+              <p>Tienda de regalos y decoración con productos divertidos e innovadores. [...]</p>
+              <p class="text-end">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalalehop">
+                  Ver más
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalalehop" tabindex="-1" aria-labelledby="modalalehopLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-warning">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalalehopLabel">Ale-Hop</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Productos únicos para regalo, decoración y uso diario. Visítalos en intu Xanadú y descubre su estilo.
+                </p>
+                <img src="imagenes/tiendas/alainLocal.jpg" alt="Tienda Ale-Hop" class="img-fluid rounded" />
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="https://www.intuxanadu.com/tienda/ale-hop/"
+                  class="btn btn-warning"
+                  target="_blank"
+                  rel="noopener"
+                  >Sitio oficial</a
+                >
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TARJETA + MODAL 6:  AliExpress -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card bg-dark text-white border-warning h-100">
+            <img src="imagenes/tiendas/aliexpress.jpg" class="card-img-top" alt="AliExpress" />
+            <div class="card-body">
+              <h4>AliExpress</h4>
+              <p>La primera tienda física en España de la plataforma china. [...]</p>
+              <p class="text-end">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalaliexpress">
+                  Ver más
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modalaliexpress"
+          tabindex="-1"
+          aria-labelledby="modalaliexpressLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark text-white border-warning">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalaliexpressLabel">AliExpress</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Explora una amplia variedad de productos a precios competitivos. Compra directamente en AliExpress
+                  intu Xanadú.
+                </p>
+                <img
+                  src="imagenes/tiendas/aliexpressLocal.jpg"
+                  alt="AliExpress intu Xanadú"
+                  class="img-fluid rounded" />
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="https://www.intuxanadu.com/tienda/aliexpress/"
+                  class="btn btn-warning"
+                  target="_blank"
+                  rel="noopener"
+                  >Sitio oficial</a
+                >
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h5>Intu Xanadú</h5>
+            <p>Ven a disfrutar del mejor de Madrid.</p>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0">
+            <h6>Contacto</h6>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-geo-alt-fill"></i> intu Xanadú, Madrid</li>
+              <li><i class="bi bi-telephone-fill"></i> +34 912 345 678</li>
+              <li><i class="bi bi-envelope-fill"></i> info@cinesa.es</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6>Síguenos</h6>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <hr class="border-light" />
+        <div class="text-center small">&copy; 2025 Cinesa. Todos los derechos reservados.</div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript (con Popper incluido) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
